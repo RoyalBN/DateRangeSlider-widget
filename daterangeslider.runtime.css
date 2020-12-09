@@ -1,0 +1,87 @@
+/* Place custom CSS styling for DateRangeSlider widget at runtime in this file */
+
+.widget-daterangeslider {
+
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.thumbnail-container{
+    width: 100%;
+    height: 130px;
+	float: left;
+	transition: margin 1s ease;
+	background-color: #005473;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.thumbnail-container .item {
+    min-width: 110px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    background-color: #00aa9a;
+    margin-top: 1%;
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+
+p {
+    height: 40px;
+    background-color: #00aa9a;
+    line-height: 43px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+.button-container{
+	width: 100%;
+	height: 40px;
+	line-height: 43px;
+	transition: margin 1s ease;
+	background-color: white;
+}
+
+button {
+	background-color: #ef4641; 
+  	color: white; 
+	border: 1px solid #c3c3c3;
+	border-radius: 5%;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #222b4a;
+	border-color: white;
+	color: white;
+	border-radius: 5%;
+}
+
+
+
+
+/* SCREEN RESOLUTION */
+@media screen and (max-width:1284px){
+	.thumbnail-container{
+		height: 300px;
+    }
+    
+    .button-container{
+        height: 180px;
+    }
+}
